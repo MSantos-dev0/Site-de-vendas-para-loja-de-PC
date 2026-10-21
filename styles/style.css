@@ -37,7 +37,8 @@ section {
    Barra de navegação
    -------------------------------------------------------------------------- */
 
-nav {
+nav,
+navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -284,7 +285,7 @@ footer {
    PÁGINA: PRODUTOS (produtos.html)
    ========================================================================== */
 
-#produtos {
+section#produtos {
     padding: 20px;
     background-color: #d1d2d3;
 }
