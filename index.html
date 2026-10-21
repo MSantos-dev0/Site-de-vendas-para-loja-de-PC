@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TecnoFast</title>
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+   <body>
+
+   <nav>
+      <img class="logo" src="images/logo_horizontal.png" alt="Logo da Loja Online de Computador">
+      <button class="alternar-menu" onclick="alternarMenu()">
+         <span></span>
+         <span></span>
+         <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+         <a href="index.html">Início</a>
+         <a href="produtos.html">Produtos</a>
+         <a href="contato.html">Contato</a>
+      </div>
+   </nav> 
+   
+   <div class="home">
+      <div class="banner">
+         <h2>Ofertas da Semana</h2>
+         <p id="descricao"> A sua loja para comprar peças de PC barato!</p>   
+         <button class="btn-comprar" onclick="window.location.href='produtos.html'">Comprar Agora</button>
+      </div>
+   </div>
+
+    <h2 class="titulo-categorias">Categorias</h2>
+
+
+   <div class="categorias">
+      <div class="categoria">
+         <img src="images/categoria1.png" alt="Categoria 1" class="img-categoria">
+         <h3>Computadores</h3>
+      </div>
+      <div class="categoria">
+         <img src="images/categoria2.png" alt="Categoria 2" class="img-categoria">
+         <h3>Componentes</h3>
+      </div>
+      <div class="categoria">
+         <img src="images/categoria3.png" alt="Categoria 3" class="img-categoria">
+         <h3>Acessórios</h3>
+      </div>
+   </div>
+
+
+       <h2 class="titulo-ofertas">Ofertas Relâmpago!</h2>
+
+
+    <div class="ofertas-relampago">
+      
+      <div class="oferta">
+         <img src="images/oferta1.jpg" alt="Oferta 1" class="img-produto">
+         <h3 class="titulo-oferta">Placa de Vídeo</h3>
+         <p class="preco">R$ 1.299,99</p>
+         <button class="btn-comprar" onclick="window.location.href='produtos.html'">Comprar</button>
+      </div>
+      <div class="oferta">
+         <img src="images/produto1.jpg" alt="Oferta 2" class="img-produto">
+         <h3 class="titulo-oferta">Monitor Gamer Curvo</h3>
+         <p class="preco">R$ 1.499,99</p>
+         <button class="btn-comprar" onclick="window.location.href='produtos.html'">Comprar</button>
+      </div>
+      <div class="oferta">
+         <img src="images/oferta3.jpg" alt="Oferta 3" class="img-produto">
+         <h3 class="titulo-oferta">Memória RAM</h3>
+         <p class="preco">R$ 299,99</p>
+         <button class="btn-comprar" onclick="window.location.href='produtos.html'">Comprar</button>
+      </div>
+    </div>  
+
+    <footer>
+       <p id="rodape"> Criado e desenvolvido por Mateus Santos - 2026 </p> 
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

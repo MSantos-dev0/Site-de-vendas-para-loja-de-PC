@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TecnoFast</title>
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+<body id="produtos-corpo">
+   <nav>
+      <img class="logo" src="images/logo_horizontal.png" alt="Logo da Loja Online de Computador">
+      <button class="alternar-menu" onclick="alternarMenu()">
+         <span></span>
+         <span></span>
+         <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Contato</a>
+      </div>  
+   </nav> 
+
+   <section id="produtos">
+      <h2>Produtos</h2>
+      <p>Confira nossa seleção de produtos de alta qualidade a preços acessíveis.</p> 
+
+      <div class="grade-produtos">
+         <div class="card-produto">
+            <img src="images/produto1.jpg" alt="Produto 1" class="img-merc">
+            <h3 class="titulo-produto">Monitor Gamer Curvo</h3>
+            <p class="descricao-produto">Tela de 27" Full HD, taxa de atualização de 144Hz e painel curvo para imersão total.</p>
+            <p class="preco">R$ 1.499,99</p>
+            <button class="btn-comprar" onclick="window.location.href='produtos.html'">Comprar</button>
+         </div>   
+
+         <div class="card-produto">
+            <img src="images/oferta1.jpg" alt="Produto 2" class="img-merc">
+            <h3 class="titulo-produto">Placa de Vídeo</h3>
+            <p class="descricao-produto">Excelente desempenho gráfico para rodar seus jogos com alta taxa de FPS e qualidade.</p>
+            <p class="preco">R$ 1.299,99</p>
+            <button class="btn-comprar" onclick="window.location.href='produtos.html'">Comprar</button>
+         </div>
+
+         <div class="card-produto">
+            <img src="images/oferta3.jpg" alt="Produto 3" class="img-merc">
+            <h3 class="titulo-produto">Memória RAM</h3>
+            <p class="descricao-produto">Módulo de 8GB DDR4 3200MHz para maior velocidade e multitarefa no seu sistema.</p>
+            <p class="preco">R$ 299,99</p>
+            <button class="btn-comprar" onclick="window.location.href='produtos.html'">Comprar</button>
+         </div>
+
+         <div class="card-produto">
+            <img src="images/produto4.jpg" alt="Produto 4" class="img-merc">
+            <h3 class="titulo-produto">Teclado Gamer Redragon</h3>
+            <p class="descricao-produto">Teclado mecânico com iluminação RGB, switches de alta precisão e design ergonômico.</p>
+            <p class="preco">R$ 499,99</p>
+            <button class="btn-comprar" onclick="window.location.href='produtos.html'">Comprar</button> 
+         </div>   
+      </div>
+   </section>  
+
+   <footer>
+      <p id="rodape"> Criado e desenvolvido por Mateus Santos - 2026 </p> 
+   </footer>
+
+   <script src="scripts/script.js"></script>
+</body>
+</html>
